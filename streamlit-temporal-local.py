@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter
 
 
-filename = 'brooklyn_bridge_pedestrians.csv'
+filename = 'brooklyn_bridge_pedestrians (1).csv'
 bridge = pd.read_csv(filename,
                      parse_dates=True,
                      index_col='hour_beginning')
